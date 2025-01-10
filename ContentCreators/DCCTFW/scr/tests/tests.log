@@ -1,0 +1,158 @@
+# Traceback (most recent call last):
+#   File "C:\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\framework\initialiize_maya_ui.py", line 176, in run_unittests
+#     tests.run_unittests()
+#     ^^^^^^^^^^^^^^^^^^^
+# AttributeError: module 'scr.tests' has no attribute 'run_unittests'
+currentTime 0 ;
+saveShelf MASH "C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/shelves/shelf_MASH";
+// 1
+saveShelf XGen "C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/shelves/shelf_XGen";
+// 1
+saveShelf DCCF "C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/shelves/shelf_DCCF";
+// 1
+// Saving preferences to : C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/userPrefs.mel
+// Saving window positions to : C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/windowPrefs.mel
+// Saving runtime commands to : C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/userRunTimeCommands.mel
+// Saving named commands to : C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/userNamedCommands.mel
+// Saving plug-in preferences to: C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/pluginPrefs.mel
+// Preferences saved. See Script Editor for details.
+saveShelf MASH "C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/shelves/shelf_MASH";
+// 1
+saveShelf DCCF "C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/shelves/shelf_DCCF";
+// 1
+// Saving window positions to : 
+saveShelf MASH "C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/shelves/shelf_MASH";
+// 1
+saveShelf DCCF "C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/shelves/shelf_DCCF";
+// 1
+// Saving preferences to : C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/userPrefs.mel
+// Saving window positions to : 
+// Saving plug-in preferences to: C:/Users/jpato/OneDrive/Documents/maya/2025/prefs/pluginPrefs.mel
+// Preferences saved. See Script Editor for details.
+============================= test session starts =============================
+platform win32 -- Python 3.11.4, pytest-8.3.2, pluggy-1.5.0
+rootdir: C:\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests
+configfile: pytest.ini
+plugins: logger-1.1.1, metadata-3.1.1
+// DCCF : logger initialized
+// DCCF : project paths initialized
+// DCCF :  project data initialized
+// pymel.core : Updating pymel with pre-loaded plugins: svgFileTranslator, invertShape, mayaHIK, GamePipeline, curveWarp, tiffFloatReader, MASH, poseInterpolator, ATFPlugin, hairPhysicalShader, LookdevXMaya, cacheEvaluator, ikSpringSolver, ik2Bsolver, xgenToolkit, AbcExport, retargeterNodes, gameFbxExporter, sweep, OpenEXRLoader, lookdevKit, Unfold3D, Type, mayaCharacterization, mtoa, bifrostGraph, meshReorder, modelingToolkit, MayaMuscle, rotateHelper, matrixNodes, AbcImport, autoLoader, deformerEvaluator, sceneAssembly, polyBoolean, gpuCache, mayaUsdPlugin, OneClick, drawUfe, objExport, ufeSupport, renderSetup, GPUBuiltInDeformer, ArubaTessellator, mayaVnnPlugin, quatNodes, fbxmaya
+collected 3 items
+
+..\scr\tests\test_fbxexporters.py::test_add_fail // DCCF : testing add
+FAILED                  [ 33%]
+..\scr\tests\test_fbxexporters.py::test_add_pass // DCCF : testing add
+PASSED                  [ 66%]
+..\scr\tests\test_fbxexporters.py::test_import // DCCF : testing character exporter name
+PASSED                    [100%]
+
+================================== FAILURES ===================================
+________________________________ test_add_fail ________________________________
+
+    def test_add_fail():
+        test_log.info('testing add')
+>       assert 1+1 == 5
+E       assert (1 + 1) == 5
+
+..\scr\tests\test_fbxexporters.py:11: AssertionError
+---------------------------- Captured stdout call -----------------------------
+23-08-2024 11:13:13 - INFO - line number: 10 - test_fbxexporters - testing add
+=========================== short test summary info ===========================
+FAILED ..\scr\tests\test_fbxexporters.py::test_add_fail - assert (1 + 1) == 5
+========================= 1 failed, 2 passed in 5.72s =========================
+============================= test session starts =============================
+platform win32 -- Python 3.11.4, pytest-8.3.2, pluggy-1.5.0
+rootdir: C:\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests
+configfile: pytest.ini
+plugins: logger-1.1.1, metadata-3.1.1
+// DCCF : logger initialized
+// DCCF : project paths initialized
+// DCCF :  project data initialized
+// pymel.core : Updating pymel with pre-loaded plugins: svgFileTranslator, invertShape, mayaHIK, GamePipeline, curveWarp, tiffFloatReader, MASH, poseInterpolator, ATFPlugin, hairPhysicalShader, LookdevXMaya, cacheEvaluator, ikSpringSolver, ik2Bsolver, xgenToolkit, AbcExport, retargeterNodes, gameFbxExporter, sweep, OpenEXRLoader, lookdevKit, Unfold3D, Type, mayaCharacterization, mtoa, bifrostGraph, meshReorder, modelingToolkit, MayaMuscle, rotateHelper, matrixNodes, AbcImport, autoLoader, deformerEvaluator, sceneAssembly, polyBoolean, gpuCache, mayaUsdPlugin, OneClick, drawUfe, objExport, ufeSupport, renderSetup, GPUBuiltInDeformer, ArubaTessellator, mayaVnnPlugin, quatNodes, fbxmaya
+collected 3 items
+
+..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_add_fail // DCCF : testing add
+FAILED [ 33%]
+..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_add_pass // DCCF : testing add
+PASSED [ 66%]
+..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_import // DCCF : testing character exporter name
+PASSED [100%]
+
+================================== FAILURES ===================================
+________________________________ test_add_fail ________________________________
+
+    def test_add_fail():
+        test_log.info('testing add')
+>       assert 1+1 == 5
+E       assert (1 + 1) == 5
+
+C:\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py:18: AssertionError
+---------------------------- Captured stdout call -----------------------------
+12-09-2024 20:10:07 - INFO - line number: 17 - test_fbxexporters - testing add
+=========================== short test summary info ===========================
+FAILED ..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_add_fail
+========================= 1 failed, 2 passed in 6.25s =========================
+============================= test session starts =============================
+platform win32 -- Python 3.11.4, pytest-8.3.2, pluggy-1.5.0
+rootdir: C:\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests
+configfile: pytest.ini
+plugins: logger-1.1.1, metadata-3.1.1
+// DCCF : logger initialized
+// DCCF : project paths initialized
+// DCCF :  project data initialized
+collected 3 items
+
+..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_add_fail // DCCF : testing add
+FAILED [ 33%]
+..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_add_pass // DCCF : testing add
+PASSED [ 66%]
+..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_import // DCCF : testing character exporter name
+PASSED [100%]
+
+================================== FAILURES ===================================
+________________________________ test_add_fail ________________________________
+
+    def test_add_fail():
+        test_log.info('testing add')
+>       assert 1+1 == 5
+E       assert (1 + 1) == 5
+
+C:\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py:18: AssertionError
+---------------------------- Captured stdout call -----------------------------
+16-09-2024 11:12:19 - INFO - line number: 17 - test_fbxexporters - testing add
+=========================== short test summary info ===========================
+FAILED ..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_add_fail
+========================= 1 failed, 2 passed in 0.49s =========================
+============================= test session starts =============================
+platform win32 -- Python 3.11.4, pytest-8.3.2, pluggy-1.5.0
+rootdir: C:\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests
+configfile: pytest.ini
+plugins: logger-1.1.1, metadata-3.1.1
+// DCCF : logger initialized
+// DCCF : project paths initialized
+// DCCF :  project data initialized
+// pymel.core : Updating pymel with pre-loaded plugins: svgFileTranslator, invertShape, mayaHIK, GamePipeline, curveWarp, tiffFloatReader, MASH, poseInterpolator, ATFPlugin, hairPhysicalShader, LookdevXMaya, cacheEvaluator, ikSpringSolver, ik2Bsolver, xgenToolkit, AbcExport, retargeterNodes, gameFbxExporter, sweep, OpenEXRLoader, lookdevKit, Unfold3D, mayaCharacterization, Type, mtoa, bifrostGraph, meshReorder, modelingToolkit, rotateHelper, MayaMuscle, matrixNodes, AbcImport, autoLoader, deformerEvaluator, sceneAssembly, polyBoolean, gpuCache, mayaUsdPlugin, OneClick, drawUfe, objExport, ufeSupport, renderSetup, GPUBuiltInDeformer, ArubaTessellator, mayaVnnPlugin, quatNodes, fbxmaya
+collected 3 items
+
+..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_add_fail // DCCF : testing add
+FAILED [ 33%]
+..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_add_pass // DCCF : testing add
+PASSED [ 66%]
+..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_import // DCCF : testing character exporter name
+PASSED [100%]
+
+================================== FAILURES ===================================
+________________________________ test_add_fail ________________________________
+
+    def test_add_fail():
+        test_log.info('testing add')
+>       assert 1+1 == 5
+E       assert (1 + 1) == 5
+
+C:\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py:18: AssertionError
+---------------------------- Captured stdout call -----------------------------
+16-09-2024 11:59:17 - INFO - line number: 17 - test_fbxexporters - testing add
+=========================== short test summary info ===========================
+FAILED ..\..\..\..\_p4\Tools\ContentCreators\DCCToolFrameWork\scr\tests\test_fbxexporters.py::test_add_fail
+========================= 1 failed, 2 passed in 5.14s =========================

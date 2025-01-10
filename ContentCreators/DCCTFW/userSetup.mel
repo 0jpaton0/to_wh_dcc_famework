@@ -1,0 +1,11 @@
+// called on maya open due to User Var MAYA_SCRIPT_PATH
+
+global proc dccf_init()
+{
+	python ("from __init__ import DCCTFW"); 	
+	python ("load_tool_framework = DCCTFW()");
+}
+
+// will not run until essential maya set up is done...waits for defualt maya ui to be 
+// initialized so the framework can use it
+evalDeferred "dccf_init()";
